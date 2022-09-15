@@ -9,3 +9,6 @@ title = "CodeNight"
 [output.html]
 git-repository-url = "https://fepaul-book.github.io"
 git-repository-icon = "fa-code-fork"
+
+[build]
+build-dir = "docs"
