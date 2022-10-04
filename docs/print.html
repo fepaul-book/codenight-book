@@ -707,58 +707,386 @@ Und in den Spalten dann jeweils deine 10 Dinge die dein Tier gerne frisst oder e
 <h3 id="-deine-website-sollte-jetzt-ungefähr-so-aussehen-1"><a class="header" href="#-deine-website-sollte-jetzt-ungefähr-so-aussehen-1">⚠️ Deine Website sollte jetzt ungefähr so aussehen</a></h3>
 <p><img src="html/listen/img/beispiel-ohne-features.png" alt="Beispiel Website" /></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="coole-features"><a class="header" href="#coole-features">coole Features</a></h1>
+<p>Das was du vorher gelernt hast ist ja ganz nett. </p>
+<p>Aber die coolen Dinge kommen erst jetzt. Ich meine Text fett drucken oder Tabellen anlegen ist essenziell aber wer legt nicht gerne eine</p>
+<ul>
+<li>
+<p>Google Maps Verknüpfung an, </p>
+</li>
+<li>
+<p>verlinkt lustige YouTube Videos </p>
+</li>
+<li>
+<p>oder bindet andere coole Dinge in seine Website ein, die man so braucht?</p>
+</li>
+</ul>
+<blockquote>
+<p><img src="html/coole-features/img/google-maps.png" alt="Beispiel cooler Features" /></p>
+</blockquote>
+<p><strong>Im nächsten Abschnitt wirst du all das lernen!</strong></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="bilder-video-ton"><a class="header" href="#bilder-video-ton">Bilder, Video, Ton</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="googlemaps"><a class="header" href="#googlemaps">GoogleMaps</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="aufgaben-3"><a class="header" href="#aufgaben-3">Aufgaben</a></h1>
-<ol start="5">
+<h2 id="bilder"><a class="header" href="#bilder">Bilder</a></h2>
+<p>Beim Einfügen von Bildern muss man mehrere Dinge einstellen. </p>
+<ol>
 <li>
-<p>Bild</p>
+<p>Welches Bild soll eingefügt werden? <strong>src</strong></p>
+<p>Man kann sowohl Bilder von der eigenen Festplatte oder aus dem Internet verlinken. Im Prinzip geht beides gleich. Man sagt der Website wo das Bild zu finden ist. Mit dem <em>src</em> Befehl (src = source = Quelle) gibt man an welches Bild von wo geladen werden soll. Wir werden im folgenden einfach das Wikipedia Bild unseres Tieres verlinken. </p>
+<p>Dafür klickt man mit Rechtsklick auf das Foto in Wikipedia und geht auf <strong>Kopiere Link</strong></p>
+<p>Diesen Link fügt man dann bei src ein wie man im unteren Beispiel sieht.</p>
 </li>
 <li>
-<p>Ton einfügen</p>
+<p>Wo soll das Bild angezeigt werden? <strong>style=&quot;float:right or left</strong></p>
+<p>Man kann einstellen wie Text um Bilder fließen soll. Also ob das Bild rechts oder links von Text ist oder ob es ganz frei stehen soll. Hierbei sind beim Design keine Grenzen gesetzt. Wir wollen aber im folgenden das Bild einfach rechts oder links vom Text anordnen. Dafür geben wir bei style right oder left an.</p>
 </li>
 <li>
-<p>Google Maps einfügen</p>
-</li>
-<li>
-<p>Video einfügen</p>
-</li>
-<li>
-<p>Kontakt Email</p>
-</li>
-<li>
-<p>Kontakt Telefonnummer</p>
-</li>
-<li>
-<p>Navigation</p>
+<p>Wie groß soll das Bild angezeigt werden? <strong>height:20%; width:20%;&quot;</strong></p>
+<p>Die Größe des Bildes kann ebenfalls eingestellt werden. Die prozentuale Angabe ist dabei die prozentuale Größe in Abhängigkeit des Bildschirms (nicht des Bildes). Dadurch dass man Prozente verwendet statt cm wird das Bild auch auf kleineren Handybildschirmen schön dargestellt. </p>
 </li>
 </ol>
-<p>Überschriften kennzeichnen:</p>
+<blockquote>
+<p><strong>heigth</strong> steht dabei für Höhe und <strong>width</strong> für Breite</p>
+</blockquote>
+<ol start="4">
+<li>Was soll angezeigt werden, wenn das Bild nicht geladen werden kann? <strong>alt=&quot;Alternativtext</strong></li>
+</ol>
+<blockquote>
+<p><strong>Bild kann geladen werden</strong></p>
+<p><img src="html/coole-features/img/l%C3%B6wenbild.png" alt="Bild kann geladen werden" /> </p>
+<p><strong>Bild konnte nicht geladen werden</strong></p>
+<p><img src="html/coole-features/img/alternative.png" alt="Löwe sitzt auf Stein" /></p>
+</blockquote>
+<p>Man muss einen Alternativtext angeben, sonst wird das Bild nicht in der Website sichtbar. Was vielleicht nervig erscheint ist aber sehr sinnvoll. Blinde Menschen können sich Websiten vorlesen lassen von Programmen. Da Blinde jedoch keine Bilder sehen können wird ihnen dann der Alternativtext vorgelesen, der das Bild beschreibt. So werden Websiten benutzerfreundlicher. </p>
+<p>Außerdem kann es bei schlechten Internetverbindungen dazu kommen, dass ein Bild nicht geladen werden kann. Dann wird auf der Website statt des Bilder einfach der Alternativtext angezeigt. So ist die Website auch bei schlechtem Internet nutzbar. </p>
+<p>Der Alternativtext wird mit dem <em>alt</em> Befehl angegeben (alt für alternative = Alternative)</p>
+<hr> 
+<p>Im folgenden siehst du ein <strong>Beispiel</strong> bei dem das Bild des Löwen von Wikipedia eingefügt wird:</p>
+<pre><code>       &lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/300px-Lion_waiting_in_Namibia.jpg&quot; 
+        alt=&quot;Löwe sitzt auf Stein&quot; 
+        style=&quot;float:right;height:20%;width:20%;&quot;&gt;   
+</code></pre>
+<blockquote>
+<p>⚠️Achtung mit dem <strong>Urheberrecht</strong>!
+Man darf nicht einfach alle Bilder aus dem Internet auf seiner eigenen Website verwenden! Man muss genau nachschauen, ob dies vom Fotografen auch erlaubt ist!</p>
+<p>Bei Wikipedia darf man jedes Bild frei verwendent, sodass man diese Bilder bedenkenlos verwenden kann. </p>
+</blockquote>
+<h2 id="youtube--videos"><a class="header" href="#youtube--videos">YouTube- Videos</a></h2>
+<p>YouTube - Videos kann man sehr einfach einfügen. Man macht dies mittels eines <strong>iframes</strong>, d.h. man fügt ein kleines Fenster ein, durch das man auf eine andere Website gucken kann (in diesem Fall YouTube) und sie benutzen kann, als wäre man auf der Website.</p>
+<h4 id="probier-es-mal-aus"><a class="header" href="#probier-es-mal-aus">Probier es mal aus</a></h4>
+<iframe width="300" height="150" src="https://www.youtube-nocookie.com/embed/j635NjTo0X0" title="YouTube video player" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+<p>Du kannst das Video auf Vollbild machen, den Ton einstellen, Pause drücken und sogar auf den Kanal der Person gehen, die das Video hochgeladen hat. So als wärst du direkt auf YouTube.</p>
+<p>Der Code zu dem oberen Beispiel sieht wie folgt aus:</p>
+<pre><code>    &lt;iframe width=&quot;300&quot; height=&quot;150&quot; 
+    src=&quot;https://www.youtube-nocookie.com/embed/j635NjTo0X0&quot; 
+    title=&quot;Löwe fällt in Wasser&quot; 
+    frameborder=&quot;0&quot; allow=&quot;accelerometer; 
+    autoplay; clipboard-write; 
+    encrypted-media; gyroscope; picture-in-picture&quot; 
+    allowfullscreen&gt;&lt;/iframe&gt;
+</code></pre>
+<p>Die Befehle bedeuten das folgende:</p>
+<ul>
+<li>
+<p><strong>iframe</strong></p>
+<p>Gibt an, dass man ein Fenster zu einer anderen Website einbauen will.</p>
+</li>
+<li>
+<p><strong>width, height</strong> </p>
+<p>Gibt die Breite und Höhe des Fensters an.</p>
+</li>
+<li>
+<p><strong>src</strong> </p>
+<p>Gibt den Link zu dem Video an.</p>
+<p>Um ein YouTube-Video auf der eigenen Website so wie oben einzubinden, musst du wie folt vorgehen.</p>
+<ul>
+<li>
+<p>Rufe das Video auf YouTube auf.</p>
+</li>
+<li>
+<p>Klicke auf Teilen oder Share unter dem Video. <img src="html/coole-features/img/share.png" alt="share button" /></p>
+</li>
+<li>
+<p>Es öffnet sich folgendes Fenster: <img src="html/coole-features/img/share-options.png" alt="share Optionen" /></p>
+</li>
+<li>
+<p>Klicke auf den Copy Button und Kopiere damit den Link den du brauchst um das Video deiner Website hinzuzufügen. </p>
+</li>
+<li>
+<p>Füge den Link bei src in den Code ein. (Du kannst dir den Rest des Codes um ein Video einzufügen oben kopieren)</p>
+</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>⚠️ Cooles Feature: Wenn du unten bei <strong>start at</strong> eine Zeit angbist (z.B. 1:20) dann startet das verlinkte Video automatisch später nach 1 Minute und 20 Sekunden. So kannst du langweilige Intros überspringen!</p>
+</blockquote>
+<ul>
+<li>
+<p><strong>title</strong> </p>
+<p>Der Titel des Videos, das wird angezeigt, wenn das Video nicht geladen werden kann (wie <em>&quot;alt&quot;</em> vorher).</p>
+</li>
+<li>
+<p><strong>frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;</strong> </p>
+<p>Das stellt alles mögliche ein. Die Rahmenbreite (<em>frameborder</em>) um das Video, ob nach dem Video automatisch weitere Videos abgespielt werden sollen (<em>autoplay</em>) oder ob das Video im Vollbildmodus abgespielt werden darf (<em>allowfullscreen</em>)</p>
+</li>
+</ul>
+<blockquote>
+<p>⚠️ Das Standardvorgehen ist aber einfach den Quelltext von oben einmal zu kopieren und nur die <strong>src, heigth, width und title</strong> anzupassen!</p>
+</blockquote>
+<h2 id="ton-einfügen"><a class="header" href="#ton-einfügen">Ton einfügen</a></h2>
+<p>Ton einfügen ist im Gegensatz zu YouTube-Videos wirklich kinderleicht. </p>
+<p><audio src="https://freeanimalsounds.org/de/startseite/download/1249/"
+    controls>
+Das wird angezeigt, wenn die Videodatei nicht gefunden wurde.
+</audio></p>
+<p>Der Code zu dem oberen Beispiel ist folgender:</p>
+<pre><code>    &lt;audio src=&quot;https://freeanimalsounds.org/de/startseite/download/1249/&quot;
+    controls&gt;
+    Das wird angezeigt, wenn die Videodatei nicht gefunden wurde.
+     &lt;/audio&gt;
+</code></pre>
+<p>Um Ton oder Audio einzufügen, muss man auch nur sagen, welchen Ton man einfügen will (src) und einen Alternativtext angeben.
+Mit dem <strong>controls</strong> Befehl gibt man an, dass man Play und Pause drücken kann, sowie die Lautstärke einstellen kann.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="googlemaps-navigation-kontaktdaten"><a class="header" href="#googlemaps-navigation-kontaktdaten">GoogleMaps, Navigation, Kontaktdaten</a></h1>
+<h2 id="google-maps"><a class="header" href="#google-maps">Google Maps</a></h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2513.0494441768246!2d6.971761916003302!3d50.959790079548895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bf25931b47f54b%3A0x55f7266d24d0201f!2sK%C3%B6lner%20Zoo!5e0!3m2!1sde!2sde!4v1663282344190!5m2!1sde!2sde" 
+width="600" height="450" style="border:0;" 
+allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+<p>Um wie oben ein Fenster direkt zu einem Google Maps Standort zu erstellen musst du wie folgt vorgehen.</p>
+<ol>
+<li>
+<p><strong>Gehe auf <a href="https://www.google.de/maps">Google Maps</a> und suche deinen Wunschort aus.</strong></p>
+</li>
+<li>
+<p><strong>Klicke links bei der Anzeige deines Orts auf Teilen.</strong></p>
+</li>
+</ol>
+<p><img src="html/coole-features/img/teilen.png" alt="Kopieren des Links" /></p>
+<ol start="3">
+<li><strong>Klicke dann auf Karten einbetten.</strong></li>
+</ol>
+<p><img src="html/coole-features/img/einbetten.png" alt="einbetten einer Karte auswählen" /></p>
+<ol start="4">
+<li><strong>Klicke auf HTML kopieren.</strong></li>
+</ol>
+<p><img src="html/coole-features/img/kopieren.png" alt="kopieren des Links" /></p>
+<ol start="5">
+<li><strong>Füge den Link einfach so in deinen Websitecode ein und du bist fertig!</strong></li>
+</ol>
+<blockquote>
+<p>⚠️  Eine Google Maps Verknüpfung zu machen ist wirklich nur kopieren und einfügen. Man muss nichts sonst machen! (Auch nichts selbst programmieren)</p>
+</blockquote>
+<p>Der eingefügte Link sieht ungefähr so aus:</p>
+<pre><code>    &lt;iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2513.049444176829!2d6.971761916302123!3d50.9597900795488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bf25931b47f54b%3A0x55f7266d24d0201f!2sK%C3%B6lner%20Zoo!5e0!3m2!1sde!2sde!4v1664916393125!5m2!1sde!2sde&quot; 
+    width=&quot;600&quot; height=&quot;450&quot; 
+    style=&quot;border:0;&quot; 
+    allowfullscreen=&quot;&quot; 
+    loading=&quot;lazy&quot; referrerpolicy=&quot;no-referrer-when-downgrade&quot;&gt;&lt;/iframe&gt;
+</code></pre>
+<p>Man sieht, dass der Code genau so aufgebaut ist wie beim Einfügen eines YouTube-Videos.</p>
+<p>Man muss angeben welchen Ort man einfügen will (src), wie groß das eingefügte Fenster sein soll (width, height) und ein paar zusätzliche Einstellungsmöglichkeiten gibt es noch die man einfach mitkopiert. </p>
+<h2 id="kontaktdaten"><a class="header" href="#kontaktdaten">Kontaktdaten</a></h2>
+<p>Klicke auf die unten angegebene Email- Adresse und gucke was passiert. (Es sollte sich ein neues Fenster öffnen)</p>
+<hr>
+<a href="mailto:info@unserTierpark.de" title="Schreiben Sie uns eine E-Mail">Schreibe an info@unser-Tierpark.de</a>
+</br>
+<a href="tel:06764899450" title="Rufen Sie uns an">06764 899 45 0.</a>
+<hr> 
+<p>Wenn man mit dem Handy die Website aufruft und auf die Telefonnummer klickt, öffnet sich automatisch das Anruffenster, in dem schon die Nummer eingetragen ist. </p>
+<p>Du siehst also, die Nummer und die Emailadresse werden nicht nur angezeigt, sondern dein Computer oder Handy weiß, dass es sich bei der Information um eine Email-Adresse oder Telefonnummer handelt und öffnet das entsprechende Programm. </p>
+<p>Um das hinzubekommen analysieren wir den folgenden Quelltext.</p>
+<pre><code>    &lt;a href=&quot;mailto:info@unserTierpark.de&quot; 
+    title=&quot;Schreiben Sie uns eine E-Mail&quot;&gt;Schreib an info@unser-Tierpark.de&lt;/a&gt;
+    &lt;/br&gt;
+    &lt;a href=&quot;tel:06764899450&quot; 
+    title=&quot;Rufen Sie uns an&quot;&gt;06764 899 45 0.&lt;/a&gt;
+</code></pre>
+<p>Eine Email oder Telefonnummer so einzufügen funktioniert im Prinzip wie das Einfügen eines normalen Links.</p>
+<p><strong>Aber</strong> hier muss man statt <em>src</em> (wird bei Links verwendet) href=&quot;mailto:EMAILADRESSE&quot; verwenden. Das sagt dem Browser, dass er eine Email-Adresse erhält. Die angebene Emailadresse ist das wohin die Mail geschickt wird. 
+Unter title ist wieder das angegeben, was für Blinde Personen vorgelesen wird. Danach wird der Text angeben, der auf der Website angezeigt wird um automatisch das Mail-Programm mit der richtigen Emailadresse zu öffnen. </p>
+<p>Bei der Telefonnummer geht es genau so. </p>
+<h2 id="navigation"><a class="header" href="#navigation">Navigation</a></h2>
+<p>Es ist nervig auf großen Websites immer von ganz oben nach ganz unten zu scrollen. Wie bei Wikipedia Artikeln ist es praktisch ein Inhaltsverzeichnis zu haben und einfach direkt an eine bestimmte Stelle auf der Website zu springen. </p>
+<p><img src="html/coole-features/img/inhaltsverzeichnis.png" alt="Beispiel Wikipedia Inhaltsverzeichnis" /></p>
+<p>Dies macht man auch über Links, aber weil man keine andere Website verlinkt, sondern Teile der eigenen Website, muss man die Links leicht anders erzeugen. </p>
+<ol>
+<li>
+<p>Man muss den Teil der Website benennen den man verlinken will (also den Bereich wo man hinspringen will - es bietet sich an zu Überschriften zu springen)</p>
+</li>
+<li>
+<p>An der Stelle an der man den Link einfügen will muss man angeben, wohin man springen will.</p>
+</li>
+</ol>
+<blockquote>
+<p><strong>Beispiel eines Inhaltsverzeichnisses:</strong>
 <h1 id="top">Inhaltsverzeichnis</h1>
-<p><a href="html/coole-features/aufgaben.html#erster_Teil">Mein Tier</a><br />
-<a href="html/coole-features/aufgaben.html#zweiter_Teil">Lebensweise</a><br />
-<a href="html/coole-features/aufgaben.html#dritter_Teil">Fressen</a><br /><br /></p>
-<h2 id="erster_Teil">Mein Tier</h2>
-<p> Ḿein Tier ist ein Löwe und heißt Simba.</p>
-<h2 id="zweiter_Teil">Lebensweise</h2>
-<p>Er lebt in der Savanne in einem großen Rudel.</p>
-<h2 id="dritter_Teil">Fressen</h2>
-<p>Am liebsten frisst er Fleisch.</p>
-<p>
-<p><a href="html/coole-features/aufgaben.html#top">Nach oben</a></p></p>
+<a href="html/coole-features/googleMaps.html#erster_Teil">Mein Tier</a><br />
+<a href="html/coole-features/googleMaps.html#zweiter_Teil">Merkmale</a><br />
+<a href="html/coole-features/googleMaps.html#dritter_Teil">Lebensweise</a><br /><br /></p>
+<h4 id="erster_Teil"> Hi, ich bin Simba </h4> 
+   ...        
+<h4 id="zweiter_Teil"> Merkmale</h4>  
+   ...        
+<h4 id="dritter_Teil"> Lebensweise</h4>
+   ...
+<p><a href="html/coole-features/googleMaps.html#top">Nach oben</a></p>
+</blockquote>
+<p><strong>Der Quelltext zu dem oberen Beispiel sieht wie folgt aus.</strong></p>
+<p>Das Inhaltsverzeichnis wurde mit diesem Code erzeugt:</p>
+<pre><code>    &lt;h1 id=&quot;top&quot;&gt;Inhaltsverzeichnis&lt;/h1&gt;
+    &lt;a href=&quot;#erster_Teil&quot;&gt;Mein Tier&lt;/a&gt;&lt;br /&gt;
+    &lt;a href=&quot;#zweiter_Teil&quot;&gt;Merkmale&lt;/a&gt;&lt;br /&gt;
+    &lt;a href=&quot;#dritter_Teil&quot;&gt;Lebensweise&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
+</code></pre>
+<p>Die Überschriften mussten aber alle vorher benannt/markiert worden sein.</p>
+<pre><code>    &lt;h4 id=&quot;erster_Teil&quot;&gt; Hi, ich bin Simba &lt;/h4&gt; 
+        ...        
+    &lt;h4 id=&quot;zweiter_Teil&quot;&gt; Merkmale&lt;/h4&gt;  
+        ...        
+    &lt;h4 id=&quot;dritter_Teil&quot;&gt; Lebensweise&lt;/h4&gt;
+
+    &lt;a href=&quot;#top&quot;&gt;Nach oben&lt;/a&gt;
+</code></pre>
+<h4 id="hinzufügen-eines-inhaltsverzeichnisses"><a class="header" href="#hinzufügen-eines-inhaltsverzeichnisses">Hinzufügen eines Inhaltsverzeichnisses</a></h4>
+<ol>
+<li>
+<p>Zuerst fügt man den Überschriften immer <strong>id=name</strong> hinzu.</p>
+</li>
+<li>
+<p>Danach kann man mit einem Link zu der Überschrift springen.</p>
+<pre><code>  &lt;a href=&quot;#name&quot;&gt;Name des Links (oft einfach die Überschrift)&lt;/a&gt;
+</code></pre>
+<p>Mit dem href gibt man an wohin man springen will. Bemerke, dass ein Hashtag # vor den Namen geschrieben werden muss, an den man springen will. </p>
+</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="aufgaben-3"><a class="header" href="#aufgaben-3">Aufgaben</a></h1>
+<blockquote>
+<h2 id="-die-folgenden-aufgaben-kannst-du-in-einer-beliebigen-reihenfolge-machen-spiel-einfach-ein-bisschen-rum-und-mach-deine-website-zu-einem-erlebnis"><a class="header" href="#-die-folgenden-aufgaben-kannst-du-in-einer-beliebigen-reihenfolge-machen-spiel-einfach-ein-bisschen-rum-und-mach-deine-website-zu-einem-erlebnis">⚠️ Die folgenden Aufgaben kannst du in einer beliebigen Reihenfolge machen. Spiel einfach ein bisschen rum und mach <strong>deine</strong> Website zu einem Erlebnis!</a></h2>
+</blockquote>
+<h2 id="aufgabe-1---bild"><a class="header" href="#aufgabe-1---bild">Aufgabe 1 - Bild</a></h2>
+<p>Füge das Wikipedia- Bild deines Tieres links neben dem ersten Absatz ein. </p>
+<p>(siehe Beispiel-Website Punkt 5)</p>
+<h2 id="aufgabe-2---ton"><a class="header" href="#aufgabe-2---ton">Aufgabe 2 - Ton</a></h2>
+<ul>
+<li>
+<p>Gehe auf <a href="https://freeanimalsounds.org/de/download-tierstimmen/">diese Website</a> und suche nach deinem Tier.</p>
+</li>
+<li>
+<p>Wenn du es nicht findest such dir ein anderes Tier raus (es darf sich auch ganz anders anhören - es ist bestimmt lustig, wenn sich ein Affe anhört wie ein Elefant.</p>
+</li>
+<li>
+<p>Klicke mit <strong>Rechtsklick</strong> auf den großen blauen Button wo Download drauf steht und dann auf <strong>Copy Link</strong>. 
+Das ist der Link, den du brauchst um den Ton zu verlinken. </p>
+</li>
+</ul>
+<p><img src="html/coole-features/img/ton-verlinken.png" alt="ton verlinken" /></p>
+<p>(siehe Beispiel-Website Punkt 13)</p>
+<h2 id="aufgabe-3---video"><a class="header" href="#aufgabe-3---video">Aufgabe 3 - Video</a></h2>
+<ul>
+<li>
+<p>Gehe auf YouTube und suche ein lustiges Video zu deinem Tier. </p>
+</li>
+<li>
+<p>Wenn du keins findest, such einfach ein lustiges Katzen oder Hundevideo raus. </p>
+</li>
+</ul>
+<blockquote>
+<p>⚠️ Bitte sucht keine anderen Videos. Ich werde nur ungern laut.</p>
+</blockquote>
+<ul>
+<li>Füge dein lustiges Video auf deiner Website ein.</li>
+</ul>
+<p>(siehe Beispiel-Website Punkt 15)</p>
+<h2 id="aufgabe-4---google-maps"><a class="header" href="#aufgabe-4---google-maps">Aufgabe 4 - Google Maps</a></h2>
+<ul>
+<li>Suche einen Ort eines Zoos in Europa mit <a href="https://www.google.de/maps">Google Maps</a> heraus. (Der Zoo muss nicht dein Tier beherbergen) Verlinke den Ort des Zoos auf deiner Website so wie du es gelernt hast. </li>
+</ul>
+<p>(siehe Beispiel-Website Punkt 14)</p>
+<h2 id="aufgabe-5---kontaktdaten"><a class="header" href="#aufgabe-5---kontaktdaten">Aufgabe 5 - Kontaktdaten</a></h2>
+<ul>
+<li>
+<p>Denke dir Kontaktdaten aus! <strong>(Nehme nicht deine eigenen und auch nicht die eines Freundes oder einer Person aus dem Internet!)</strong></p>
+<p>Eine kreative Emailadresse ist immer gut für einen Witz!</p>
+</li>
+<li>
+<p>Füge den Kontakt einer Person wie zuvor gelernt auf der Website ein. Sowohl als Email als auch als Telefon-Kontakt.</p>
+</li>
+</ul>
+<p>(siehe Beispiel-Website Punkt 16 und 17)</p>
+<h2 id="aufgabe-6---navigation"><a class="header" href="#aufgabe-6---navigation">Aufgabe 6 - Navigation</a></h2>
+<p>Füge ein Inhaltsverzeichnis ein, dass die folgenden Einträge hat:</p>
+<ul>
+<li>
+<p>&quot;Mein Tier&quot;</p>
+</li>
+<li>
+<p>Lebensweise</p>
+</li>
+<li>
+<p>Fressen</p>
+</li>
+</ul>
+<p>Außerdem soll es einen Link am Ende der Website geben, mit dem man wieder zum Anfang der Website kommt. </p>
+<blockquote>
+<p>⚠️ Diese Aufgabe ist für die echten Profis!</p>
+</blockquote>
 <ol start="19">
 <li>Add Ons</li>
 </ol>
 <p>Unterstreiche und streiche Text durch, indem du den ins und del Befehl probierst. Wofür könnten die Befehle stehen? Googel gegebenenfalls.</p>
-<h3 id="-deine-website-sollte-jetzt-ungefähr-so-aussehen-2"><a class="header" href="#-deine-website-sollte-jetzt-ungefähr-so-aussehen-2">⚠️ Deine Website sollte jetzt ungefähr so aussehen</a></h3>
+<h3 id="-deine-website-kann-jetzt-ungefähr-so-aussehen"><a class="header" href="#-deine-website-kann-jetzt-ungefähr-so-aussehen">⚠️ Deine Website kann jetzt ungefähr so aussehen</a></h3>
+<iframe src="https://fepaul-book.github.io/tierpark-website/Tiere/beispiel-loewe.html" title="Beispiel-Website" height=100%; width=100%></iframe> 
 <blockquote>
-<p>⚠️ Wenn du schnell warst guck doch einfach mal in den nächsten <strong>Abschnitt CSS</strong> rein. Dort lernst du wie du Farbe in deine Website bekommst und sie generell schöner machst. </p>
-</blockquote>
-<blockquote>
-<p>Alternativ kannst du auch einfach auf <a href="https://www.w3schools.com/html/default.asp">W3Schools</a> gehen und noch mehr coole Features für deine Website ausprobieren. Rechts oben kannst du die Sprache auf deutsch umstellen.</p>
+<h2 id="-wenn-du-schnell-warst-guck-doch-einfach-mal-in-den-nächsten-abschnitt-css-rein-dort-lernst-du-wie-du-farbe-in-deine-website-bekommst-und-sie-generell-schöner-machst"><a class="header" href="#-wenn-du-schnell-warst-guck-doch-einfach-mal-in-den-nächsten-abschnitt-css-rein-dort-lernst-du-wie-du-farbe-in-deine-website-bekommst-und-sie-generell-schöner-machst">⚠️ Wenn du schnell warst guck doch einfach mal in den nächsten <strong>Abschnitt CSS</strong> rein. Dort lernst du wie du Farbe in deine Website bekommst und sie generell schöner machst.</a></h2>
 </blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="css"><a class="header" href="#css">CSS</a></h1>
+<p>Mit HTML schreibt man Websiten. </p>
+<p>Mit CSS designed man sie.</p>
+<p>Das heißt CSS ist dafür da deine Website schön zu machen. </p>
+<p>Da Programmierer sich enorm viel selbst beibringen müssen, sollst du auch diese Erfahrung mal machen. </p>
+<blockquote>
+<p>Gehe auf <a href="https://www.w3schools.com/css/default.asp">W3Schools</a> und bringe dir CSS selbst bei!</p>
+</blockquote>
+<p><a href="https://www.w3schools.com/css/default.asp"><img src="html/CSS/css.png" alt="W3SChools CSS" /></a></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="aufgaben-4"><a class="header" href="#aufgaben-4">Aufgaben</a></h1>
+<ul>
+<li>
+<p>Füge ein externes CSS Stylesheet in deine Website ein und färbe den body blau.</p>
+</li>
+<li>
+<p>Färbe die Schrift aller Überschriften rot ein. </p>
+</li>
+<li>
+<p>Hinterlege Paragraphen gelb.</p>
+</li>
+<li>
+<p>Färbe Links pink ein. </p>
+</li>
+<li>
+<p>Ändere die Symbole bei Listen.</p>
+</li>
+<li>
+<p>Mache eine Umrandung um die Tabelle.</p>
+</li>
+<li>
+<p>Ändere die Schriftgröße des normalen Textes. (Mache ihn größer)</p>
+</li>
+<li>
+<p>Ändere die Schriftart der Website.</p>
+</li>
+</ul>
+<blockquote>
+<p>Für wirklich umfassende Änderungen brauchst du noch ein bisschen besseres Verständnis von html. Wenn du dich selbst dazu informieren willst googel nach folgenden Begriffen:</p>
+<ul>
+<li>html div</li>
+<li>html span</li>
+<li>html class</li>
+<li>html id</li>
+<li>html Attribute</li>
+</ul>
+</blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="autorennen-mit-scratch"><a class="header" href="#autorennen-mit-scratch">Autorennen mit Scratch</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="routenplaner-mit-scratch"><a class="header" href="#routenplaner-mit-scratch">Routenplaner mit Scratch</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="ki-programmieren-in-python"><a class="header" href="#ki-programmieren-in-python">Ki programmieren in Python</a></h1>

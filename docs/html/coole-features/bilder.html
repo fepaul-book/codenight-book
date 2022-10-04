@@ -146,6 +146,129 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="bilder-video-ton"><a class="header" href="#bilder-video-ton">Bilder, Video, Ton</a></h1>
+<h2 id="bilder"><a class="header" href="#bilder">Bilder</a></h2>
+<p>Beim Einfügen von Bildern muss man mehrere Dinge einstellen. </p>
+<ol>
+<li>
+<p>Welches Bild soll eingefügt werden? <strong>src</strong></p>
+<p>Man kann sowohl Bilder von der eigenen Festplatte oder aus dem Internet verlinken. Im Prinzip geht beides gleich. Man sagt der Website wo das Bild zu finden ist. Mit dem <em>src</em> Befehl (src = source = Quelle) gibt man an welches Bild von wo geladen werden soll. Wir werden im folgenden einfach das Wikipedia Bild unseres Tieres verlinken. </p>
+<p>Dafür klickt man mit Rechtsklick auf das Foto in Wikipedia und geht auf <strong>Kopiere Link</strong></p>
+<p>Diesen Link fügt man dann bei src ein wie man im unteren Beispiel sieht.</p>
+</li>
+<li>
+<p>Wo soll das Bild angezeigt werden? <strong>style=&quot;float:right or left</strong></p>
+<p>Man kann einstellen wie Text um Bilder fließen soll. Also ob das Bild rechts oder links von Text ist oder ob es ganz frei stehen soll. Hierbei sind beim Design keine Grenzen gesetzt. Wir wollen aber im folgenden das Bild einfach rechts oder links vom Text anordnen. Dafür geben wir bei style right oder left an.</p>
+</li>
+<li>
+<p>Wie groß soll das Bild angezeigt werden? <strong>height:20%; width:20%;&quot;</strong></p>
+<p>Die Größe des Bildes kann ebenfalls eingestellt werden. Die prozentuale Angabe ist dabei die prozentuale Größe in Abhängigkeit des Bildschirms (nicht des Bildes). Dadurch dass man Prozente verwendet statt cm wird das Bild auch auf kleineren Handybildschirmen schön dargestellt. </p>
+</li>
+</ol>
+<blockquote>
+<p><strong>heigth</strong> steht dabei für Höhe und <strong>width</strong> für Breite</p>
+</blockquote>
+<ol start="4">
+<li>Was soll angezeigt werden, wenn das Bild nicht geladen werden kann? <strong>alt=&quot;Alternativtext</strong></li>
+</ol>
+<blockquote>
+<p><strong>Bild kann geladen werden</strong></p>
+<p><img src="img/l%C3%B6wenbild.png" alt="Bild kann geladen werden" /> </p>
+<p><strong>Bild konnte nicht geladen werden</strong></p>
+<p><img src="img/alternative.png" alt="Löwe sitzt auf Stein" /></p>
+</blockquote>
+<p>Man muss einen Alternativtext angeben, sonst wird das Bild nicht in der Website sichtbar. Was vielleicht nervig erscheint ist aber sehr sinnvoll. Blinde Menschen können sich Websiten vorlesen lassen von Programmen. Da Blinde jedoch keine Bilder sehen können wird ihnen dann der Alternativtext vorgelesen, der das Bild beschreibt. So werden Websiten benutzerfreundlicher. </p>
+<p>Außerdem kann es bei schlechten Internetverbindungen dazu kommen, dass ein Bild nicht geladen werden kann. Dann wird auf der Website statt des Bilder einfach der Alternativtext angezeigt. So ist die Website auch bei schlechtem Internet nutzbar. </p>
+<p>Der Alternativtext wird mit dem <em>alt</em> Befehl angegeben (alt für alternative = Alternative)</p>
+<hr> 
+<p>Im folgenden siehst du ein <strong>Beispiel</strong> bei dem das Bild des Löwen von Wikipedia eingefügt wird:</p>
+<pre><code>       &lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/300px-Lion_waiting_in_Namibia.jpg&quot; 
+        alt=&quot;Löwe sitzt auf Stein&quot; 
+        style=&quot;float:right;height:20%;width:20%;&quot;&gt;   
+</code></pre>
+<blockquote>
+<p>⚠️Achtung mit dem <strong>Urheberrecht</strong>!
+Man darf nicht einfach alle Bilder aus dem Internet auf seiner eigenen Website verwenden! Man muss genau nachschauen, ob dies vom Fotografen auch erlaubt ist!</p>
+<p>Bei Wikipedia darf man jedes Bild frei verwendent, sodass man diese Bilder bedenkenlos verwenden kann. </p>
+</blockquote>
+<h2 id="youtube--videos"><a class="header" href="#youtube--videos">YouTube- Videos</a></h2>
+<p>YouTube - Videos kann man sehr einfach einfügen. Man macht dies mittels eines <strong>iframes</strong>, d.h. man fügt ein kleines Fenster ein, durch das man auf eine andere Website gucken kann (in diesem Fall YouTube) und sie benutzen kann, als wäre man auf der Website.</p>
+<h4 id="probier-es-mal-aus"><a class="header" href="#probier-es-mal-aus">Probier es mal aus</a></h4>
+<iframe width="300" height="150" src="https://www.youtube-nocookie.com/embed/j635NjTo0X0" title="YouTube video player" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+<p>Du kannst das Video auf Vollbild machen, den Ton einstellen, Pause drücken und sogar auf den Kanal der Person gehen, die das Video hochgeladen hat. So als wärst du direkt auf YouTube.</p>
+<p>Der Code zu dem oberen Beispiel sieht wie folgt aus:</p>
+<pre><code>    &lt;iframe width=&quot;300&quot; height=&quot;150&quot; 
+    src=&quot;https://www.youtube-nocookie.com/embed/j635NjTo0X0&quot; 
+    title=&quot;Löwe fällt in Wasser&quot; 
+    frameborder=&quot;0&quot; allow=&quot;accelerometer; 
+    autoplay; clipboard-write; 
+    encrypted-media; gyroscope; picture-in-picture&quot; 
+    allowfullscreen&gt;&lt;/iframe&gt;
+</code></pre>
+<p>Die Befehle bedeuten das folgende:</p>
+<ul>
+<li>
+<p><strong>iframe</strong></p>
+<p>Gibt an, dass man ein Fenster zu einer anderen Website einbauen will.</p>
+</li>
+<li>
+<p><strong>width, height</strong> </p>
+<p>Gibt die Breite und Höhe des Fensters an.</p>
+</li>
+<li>
+<p><strong>src</strong> </p>
+<p>Gibt den Link zu dem Video an.</p>
+<p>Um ein YouTube-Video auf der eigenen Website so wie oben einzubinden, musst du wie folt vorgehen.</p>
+<ul>
+<li>
+<p>Rufe das Video auf YouTube auf.</p>
+</li>
+<li>
+<p>Klicke auf Teilen oder Share unter dem Video. <img src="img/share.png" alt="share button" /></p>
+</li>
+<li>
+<p>Es öffnet sich folgendes Fenster: <img src="img/share-options.png" alt="share Optionen" /></p>
+</li>
+<li>
+<p>Klicke auf den Copy Button und Kopiere damit den Link den du brauchst um das Video deiner Website hinzuzufügen. </p>
+</li>
+<li>
+<p>Füge den Link bei src in den Code ein. (Du kannst dir den Rest des Codes um ein Video einzufügen oben kopieren)</p>
+</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>⚠️ Cooles Feature: Wenn du unten bei <strong>start at</strong> eine Zeit angbist (z.B. 1:20) dann startet das verlinkte Video automatisch später nach 1 Minute und 20 Sekunden. So kannst du langweilige Intros überspringen!</p>
+</blockquote>
+<ul>
+<li>
+<p><strong>title</strong> </p>
+<p>Der Titel des Videos, das wird angezeigt, wenn das Video nicht geladen werden kann (wie <em>&quot;alt&quot;</em> vorher).</p>
+</li>
+<li>
+<p><strong>frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;</strong> </p>
+<p>Das stellt alles mögliche ein. Die Rahmenbreite (<em>frameborder</em>) um das Video, ob nach dem Video automatisch weitere Videos abgespielt werden sollen (<em>autoplay</em>) oder ob das Video im Vollbildmodus abgespielt werden darf (<em>allowfullscreen</em>)</p>
+</li>
+</ul>
+<blockquote>
+<p>⚠️ Das Standardvorgehen ist aber einfach den Quelltext von oben einmal zu kopieren und nur die <strong>src, heigth, width und title</strong> anzupassen!</p>
+</blockquote>
+<h2 id="ton-einfügen"><a class="header" href="#ton-einfügen">Ton einfügen</a></h2>
+<p>Ton einfügen ist im Gegensatz zu YouTube-Videos wirklich kinderleicht. </p>
+<p><audio src="https://freeanimalsounds.org/de/startseite/download/1249/"
+    controls>
+Das wird angezeigt, wenn die Videodatei nicht gefunden wurde.
+</audio></p>
+<p>Der Code zu dem oberen Beispiel ist folgender:</p>
+<pre><code>    &lt;audio src=&quot;https://freeanimalsounds.org/de/startseite/download/1249/&quot;
+    controls&gt;
+    Das wird angezeigt, wenn die Videodatei nicht gefunden wurde.
+     &lt;/audio&gt;
+</code></pre>
+<p>Um Ton oder Audio einzufügen, muss man auch nur sagen, welchen Ton man einfügen will (src) und einen Alternativtext angeben.
+Mit dem <strong>controls</strong> Befehl gibt man an, dass man Play und Pause drücken kann, sowie die Lautstärke einstellen kann.</p>
 
                     </main>
 
