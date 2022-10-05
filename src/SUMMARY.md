@@ -24,5 +24,8 @@
   - [CSS](html/CSS/README.md)
     - [Aufgaben](html/CSS/aufgaben.md)
 - [Autorennen mit Scratch](Autorennen.md)
+  - [Wie funktioniert Scratch](scratch1/funktionsweise.md)
+  - [Wunschliste an Autorennen](scratch1/wunschliste.md)
+  - [Tipps](scratch1/tipps.md)
 - [Routenplaner mit Scratch](Routenplaner.md)
 - [Ki programmieren in Python](Ki.md)

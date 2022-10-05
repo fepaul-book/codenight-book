@@ -17,6 +17,7 @@
 
 - Ändere die Schriftart der Website.
 
+- Ändere die Farbe eines Links, nachdem man auf ihn geklickt hat (visited)
 > Für wirklich umfassende Änderungen brauchst du noch ein bisschen besseres Verständnis von html. Wenn du dich selbst dazu informieren willst googel nach folgenden Begriffen:
 >
 > - html div

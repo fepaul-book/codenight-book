@@ -88,20 +88,6 @@ Die Befehle bedeuten das folgende:
 
     Gibt den Link zu dem Video an.
 
-    Um ein YouTube-Video auf der eigenen Website so wie oben einzubinden, musst du wie folt vorgehen.
-
-    - Rufe das Video auf YouTube auf.
-
-    - Klicke auf Teilen oder Share unter dem Video. ![share button](img/share.png)
-
-    - Es öffnet sich folgendes Fenster: ![share Optionen](img/share-options.png)
-
-    - Klicke auf den Copy Button und Kopiere damit den Link den du brauchst um das Video deiner Website hinzuzufügen. 
-
-    - Füge den Link bei src in den Code ein. (Du kannst dir den Rest des Codes um ein Video einzufügen oben kopieren)
-
-> ⚠️ Cooles Feature: Wenn du unten bei **start at** eine Zeit angbist (z.B. 1:20) dann startet das verlinkte Video automatisch später nach 1 Minute und 20 Sekunden. So kannst du langweilige Intros überspringen!
-
 - **title** 
 
     Der Titel des Videos, das wird angezeigt, wenn das Video nicht geladen werden kann (wie *"alt"* vorher).
@@ -110,7 +96,27 @@ Die Befehle bedeuten das folgende:
     
     Das stellt alles mögliche ein. Die Rahmenbreite (*frameborder*) um das Video, ob nach dem Video automatisch weitere Videos abgespielt werden sollen (*autoplay*) oder ob das Video im Vollbildmodus abgespielt werden darf (*allowfullscreen*)
 
-> ⚠️ Das Standardvorgehen ist aber einfach den Quelltext von oben einmal zu kopieren und nur die **src, heigth, width und title** anzupassen!
+## muss ich das wirklich alles abtippen?
+
+## NEIN !
+
+ Um ein YouTube-Video auf der eigenen Website so wie oben einzubinden, musst du wie folt vorgehen.
+
+- Rufe das Video auf YouTube auf.
+
+- Klicke auf Teilen oder Share unter dem Video. ![share button](img/share.png)
+
+- Es öffnet sich folgendes Fenster: ![share Optionen](img/share-options.png)
+
+- Klicke auf den Embed Button und kopiere dann den gesamten Code mit dem Copy Button rechts unten. 
+
+![embedded](img/embedded.png)
+
+- Füge das alles in deine Website ein. FERTIG! 
+
+> ⚠️ **Du musst nichts programmieren!** Nur KOPIEREN!
+
+> ⚠️ Cooles Feature: Wenn du unten bei **start at** eine Zeit angbist (z.B. 1:20) dann startet das verlinkte Video automatisch später nach 1 Minute und 20 Sekunden. So kannst du langweilige Intros überspringen!
 
 
 ## Ton einfügen
