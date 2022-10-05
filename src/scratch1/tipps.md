@@ -60,17 +60,29 @@ Mehr brauchst du fast nicht.
 
 ## 7. Stoppuhr programmieren
 
+Für die Stoppuhr benötigst du folgende Blöcke:
+
+![blöcke stoppuhr](img/stoppuhr.png)
 
 <hr>
 
 ## 8. Töne hinzufügen
 
-
+Töne sind cool, aber wenn du hier Probleme hast probiere erstmal einen Spielgegner zu erstellen.
 
 <hr>
 
 ## 9. Spielgegner erstellen
 
+Du benötigst zwei Stoppuhren - eine für jedes Auto
+
+und du benötigst zwei Rundenzähler - eine für jedes Auto. 
+
+Den Countdown brauchst du nur einmal - für beide Autos zusammen. Wenn der auf 0 ist, müssen beide Stoppuhren starten. 
+
+Aber wenn ein Auto über die Ziellinie fährt, darf nur der Rundenzähler dieses Autos hochgezählt werden und auch nur diese Stoppuhr zurückgesetzt werden.
+
+**Wenn du noch Probleme hast probier einfach rum oder lass dir gerne von mir oder einem Mitschüler vor Ort helfen!**
 
 <hr>
 

@@ -28,4 +28,7 @@
   - [Wunschliste an Autorennen](scratch1/wunschliste.md)
   - [Tipps](scratch1/tipps.md)
 - [Routenplaner mit Scratch](Routenplaner.md)
+  - [Funktionsweise von Scratch](scratch2/funktionsweise.md)
+  - [Wunschzettel](scratch2/wunschzettel.md)
+  - [Tipps](scratch2/tipps.md)
 - [Ki programmieren in Python](Ki.md)

@@ -1,5 +1,8 @@
 # Wunschliste an Autorennen
 
+
+> # ⚠️ Benutze die Tipps nur wenn du nicht weiter kommst! Probiere aber vorher erstmal selbst aus!
+
 ## 1. Auto erstellen
 
 ![Auto Vorlage](img/auto.png)
@@ -105,18 +108,45 @@ Es soll die Rundenzeit angezeigt werden.
 
 - Nach jeder Runde (über Ziellinie gefahren) wird die Stoppuhr angezeigt und dann zurückgesetzt für die nächste Runde. 
  
+- Wenn man mehrere Runden spielt, muss nachdem der Countdown abgelaufen ist die Stoppuhr auch zuerst zurück auf 0 gesetzt werden.
+
+> Du brauchst keine Variable Stoppuhr. Unter *Fühlen* gibt es schon eine Stoppuhr!
 
 <hr>
 
 ## 8. Töne hinzufügen
 
+Jedes coole Spiel hat Töne!
+
+Wenn du auf dein Auto klickst siehst du links oben im Fenster die Rubrik Klänge. 
+
+Rechts unten kannst du neue Klänge laden.
+
+Mit den Bausteinen in der Rubrik **Klang** kannst du dann einen Klang-abspielen-Block in deinen Code einbauen.
+
+- Immer wenn dein Auto über die Ziellinie fährt soll ein Ton abgespielt werden.
+
+- Mit jeder Sekunde beim Countdown soll ein kurzer Ton abgespielt werden. Mit jeder Sekunde soll der Ton lauter werden.
 
 <hr>
 
 ## 9. Spielgegner erstellen
 
+Erstelle ein zweites Rennauto, sodass du gegen deinen Freund ein Rennen fahren kannst.
+
+- Du musst nicht nochmal alles neu machen. Klicke auf dein Rennauto mit **Rechtsklick - Duplizieren**.
+
+    Dein Auto mit all seinem Code wird kopiert und du hast zwei Autos. 
+
+- Ändere die Farbe des anderen Autos und ändere die Steuerun auf *WASD* um damit einer mit Pfeiltasten und einer mit den Buchstaben steuern kann. 
+
+- Der Countdown muss natürlich nur einmal runtergezählt werden, aber du benötigst zwei verschiedene Rundenzähler und zwei verschiedene Stoppuhren. Hier musst du den Code also leicht anpassen.
+
+> # ⚠️ Zock einfach mal ein paar Runden
 
 <hr>
+
+# Du kannst jetzt noch zusätzliche Features deiner Wahl programmieren oder dich an den folgenden orientieren
 
 ## 10. Rennstrecke, Auto ändern
 
@@ -132,7 +162,7 @@ Man soll nicht schummeln können, indem man gar keine Runde gefahren ist und rü
 
 <hr>
 
-## 11. Gegenstände einbauen die auf der Straße liegen, fährt man dagegen, bleibt man stehen
+## 12. Gegenstände einbauen die auf der Straße liegen, fährt man dagegen, bleibt man stehen
 
 Es sollen braune Kisten auf der Straße sein. Wenn  man gegen die fährt bleibt man 1 Sekunde stehen, aber die Kiste verschwindet danach. 
 <hr>
