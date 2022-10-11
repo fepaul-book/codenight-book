@@ -1,12 +1,22 @@
-# Routenplaner mit Scratch
+# <del> Routenplaner</del> Tischtennis mit Scratch
 
-[![autorennen](scratch1/img/autorennen.png)](https://scratch.mit.edu/projects/408613722/) 
+>[![Labyrinth](scratch2/img/maze.png)](https://www.doyoumaze.com/maze-collections#/mobile-mazes/) 
+>
+>Ursprünglich war das Programmieren eines Routenplaners oder Labyrinth-Lösers geplant. 
+>Das erstellen des Labyrinths und das programmieren einer Figur die rechts, links, hoch, runter gehen kann ist kein >Problem. Aber für die 10. Klasse zu langweilig. 
+>
+>Ich wollte mit euch etwas programmieren was automatisch solche Labyrinthe löst. Schritt für Schritt. Leider kann 
+> Scratch das aber nicht bzw. nur super umständlich. 
+>
+> ## Deshalb programmieren wir jetzt einfach Tischtennis - das ist genau so schwer wie der Routenplaner und macht noch mehr Spaß!
+
+[![Ping Pong](scratch2/img/pingpong.png)](https://youtu.be/81uLfx0pYjA)
 
 [Scratch](https://scratch.mit.edu/projects/editor/?tutorial=getStarted) ist eine Programmierumgebung, bei der man mit Blöcken, statt mit Codezeilen programmiert. 
 
 - Scratch gibt es [online](https://scratch.mit.edu/projects/editor/?tutorial=getStarted), sodass man jederzeit direkt losprogrammiere kann. 
 
-- Außerdem ist es auf den meisten **Schulcomputern** installiert.
+- Außerdem ist es auf den meisten **Schulcomputern** installiert.   
  
 # Code vs Blöcke, Ist da ein Unterschied?
 

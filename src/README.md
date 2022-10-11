@@ -33,7 +33,7 @@ Programmiere ein cooles Spiel. Mal sehen wer nicht nur am besten spielt, sondern
 
 In diesem Workshop wird die Baukastenprogrammiersprache Scratch verwendet - statt Tippfehlern gibt es hier coole Spiele!
 
-### Routenplaner programmieren mit Scratch (9./10. Klasse)
+### <del> Routenplaner</del> Ping Pong programmieren mit Scratch (9./10. Klasse)
 
 1 Workshop, 18-20 Uhr
 
