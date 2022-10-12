@@ -1,10 +1,8 @@
 # Tipps
 
-# Wunschliste an Autorennen
-
 ## 1. Auto erstellen
 
-Das bekommst du ohne Hilfe hin.
+Du musst wahrscheinlich die Größe deines Autos ändern. Klicke dazu auf dein Auto und gucke dann, ob du eine Einstellungsmöglichkeit für die Größe findest.
 
 <hr> 
 
