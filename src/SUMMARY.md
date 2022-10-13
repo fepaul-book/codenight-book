@@ -34,3 +34,9 @@
   - [Wunschzettel](scratch2/wunschzettel.md)
   - [Tipps](scratch2/tipps.md)
 - [Ki programmieren in Python](Ki.md)
+  - [Tic Tac Toe](python/wunschzettel.md)
+  - [Profi Strategie](python/tic-profi.md)
+  - [4 Gewinnt](python/4-gewinnt.md)
+  - [Einrichtung Python](python/python.md)
+- [Feedback](feedback.md)
+
