@@ -26,10 +26,14 @@
 
 **check_win(field, symbol):**
 
+> ⚠️ Bei TicTacToe fehlt diese Funktion und du musst sie selbst programmieren. 
+> 
+> Bei 4Gewinnt ist die Funktion schon geschrieben und du kannst sie einfach aufrufen. 
+
 Diese Funktion soll testen, ob der Spieler mit *symbol* gewonnen, verloren oder unentschieden gespielt hat und das dementsprechend returnen.
 Die Funktion bekommt das Spielfeld wie oben gezeigt übergeben, sodass man die Listen durchgucken muss, ob ein Spieler gewonnen hat. 
 
-> Beachte die alle Fälle die eintreten können!
+> Beachte alle Fälle die eintreten können!
 
     return 0 (verloren)
 
@@ -41,9 +45,13 @@ Die Funktion bekommt das Spielfeld wie oben gezeigt übergeben, sodass man die L
 
 Diese Funktion soll sich in einer Liste merken, welche Felder frei sind. 
 
-Ziel wäre zum Beispiel eine Liste die wie folgt aussieht:
+Ziel wäre zum Beispiel eine Liste die für **TicTacToe** wie folgt aussieht:
 
         [(1,0), (2,1)] 
+
+Für **4Gewinnt** so: (gibt die Spalte an in die man noch werfen kann)
+
+        [1,3,4]
 
 <hr>
 
