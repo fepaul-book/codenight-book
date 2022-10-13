@@ -2,51 +2,54 @@
 
 _by Felix Peter Paul_
 
-Du willst erste Programmiererfahrung sammeln um langfristig ein echter Hacker zu werden? Du willst  mal eine eigene Website programmieren? Oder wie wäre es damit ein Spiel zu programmieren. Dann ist die CodeNight [^course] genau das richtige für dich. 
+> # ⚠️ Die Codenight hat Michael, Philipp und Felix super viel Spaß gemacht.
+> # Danke für eure tolle Mitarbeit!
 
-### Blockly (5./6. Klasse)
 
-1 Workshop, 16-18 Uhr
+# Blockly
 
-Lerne die Grundlagen hinter jeder Website, jeder App und jedes Programms!
+Jeder der noch weiter mit Blockly programmieren will kann das jederzeit [unter diesem Link tun](https://blockly.games/?lang=de)
 
-Du musst nur eine Menge Spaß und Interesse mitbringen - Vorkenntnisse brauchst du keine!
-Du musst dich nicht mit lästiger Tipparbeit rumschlagen - es reicht das Zusammenziehen von Codeblöcken wie bei Lego.
+# HTML
 
-[Link zu Blockly](  https://blockly.games/puzzle?lang=de)
+### ⚠️ [Unter diesem Link geht es zum Tierpark](https://fepaul-book.github.io/tierpark-website/UnsereTierwelt.html).
 
-### Website programmieren (5./6. Klasse + 7./8. Klasse)
+Dort könnt ihr in der Liste euer Tier auswählen und eure eigene Website sehen.
 
-je 1 Workshop, 16-18 Uhr
+- Wer weiter programmieren will kann die **⚠️ [Websiten unter diesem Link  downloaden](img/tierpark-website.zip)**.
+  
+  - Klicke dann mit Rechtsklick auf die Datei.
 
-Programmiere deine eigene Website, die du deinen Freunden und Eltern danach auch wirklich im Internet zeigen kannst.
+  - Wähle *Entpacke hier* aus
 
-Auch hier benötigst du keinerlei Vorkenntnisse. 
+  - suche deine Website und programmiere weiter wie du es gelernt hast ([siehe hier](html/part1/einrichtung.md))
 
-[Link zur Beispielwebsite](https://fepaul-book.github.io/tierpark-website/Tiere/beispiel-loewe)
+  - Lest zuerst und programmiert dann die Aufgaben.
 
-### Autorennen programmieren mit Scratch (7./8. Klasse)
+  - Probiert **YouTube Videos, Google Maps und Töne** einzufügen
 
-1 Workshop, 18-20 Uhr
 
-Programmiere ein cooles Spiel. Mal sehen wer nicht nur am besten spielt, sondern auch am besten programmiert!
+# Scratch
 
-In diesem Workshop wird die Baukastenprogrammiersprache Scratch verwendet - statt Tippfehlern gibt es hier coole Spiele!
+- Wer in Scratch weiter programmieren will kann sich die Datei, die er/sie auf dem Schulcomputer abgelegt hat natürlich auf einen USB Stick kopieren und dann daheim weiter programmieren.
 
-### <del> Routenplaner</del> Ping Pong programmieren mit Scratch (9./10. Klasse)
+- Ihr könnt aber auch die *grobe* [Musterlösung für das Autorennen hier downloaden](img/autorennen.sb3) und dann in Scratch laden. Darauf aufbauen könnt ihr dann weiter programmieren. *Gerade das zweite Auto ist aber noch sehr schlecht programmiert  (achte auf den Countdown der doppelt runtergezählt)
 
-1 Workshop, 18-20 Uhr
 
-Je ausgeklügelter das Spiel, desto größer der Spaß!
+- Auch für das Tischtennisspiel könnt ihr eine *grobe* [Musterlösung hier downloaden](img/tischtennis.sb3) und dann in Scratch laden. Darauf aufbauen könnt ihr dann weiter programmieren.
 
-Auch hier arbeitest du mit Codeblöcken - aber auch damit kann man die coolsten Dinge programmieren. 
 
-### Ki programmieren in Python  (Oberstufe)
-1 Workshop, 18-20 Uhr
+# Python
 
-Kannst du eine KI schreiben, die nie verliert?
+Wer die KI noch weiter programmieren will kann [hier weiter an den Aufgaben arbeiten](Ki.md). 
 
-Hier arbeitest du mit python. Also einer textbasierten Programmiersprache. Kleine Vorkenntnisse sind sicherlich von Vorteil, aber auf der Begleitwebsite findest du genug Informationen um auch ohne Vorkenntnisse mit ein wenig Gehirnschmalz schnell eine coole KI zu schreiben!
+Ich empfehle aber ausdrücklich vorher einen Blick in eins dieser Tutorials zu werfen um ein bisschen python Syntax im Vorfeld zu lernen.
+
+- [Kurzversion Syntax](https://learnxinyminutes.com/docs/python/)
+
+- [umfassendes Tutorial](https://www.w3schools.com/python/default.asp) 
+
+
 
 
 ## Viel Spaß beim Programmieren!
